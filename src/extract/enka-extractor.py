@@ -1,14 +1,10 @@
 # src/extract/enka_extractor.py
 import asyncio
-import json
+import json 
 from pathlib import Path
 from enka import HSRClient
 
 async def fetch_user_data(uid: int):
-    """
-    Extract player info, characters, and builds from HSR showcase.
-    Saves raw JSON for ETL practice.
-    """
     async with HSRClient() as client:
         data = await client.fetch_showcase(uid)
 
@@ -20,21 +16,22 @@ async def fetch_user_data(uid: int):
             "signature": data.player.signature,
         }
 
-        # ---------- CHARACTERS INFO ----------
+        # ---------- CHARACTERS + BUILDS + RELICS ----------
         characters = []
         builds = []
+        relics_data = []
 
         for char in data.characters:
+            # Character info
             char_dict = {
                 "character_id": char.id,
                 "name": char.name,
                 "level": char.level,
-                #"promotion": char.promotion,
                 "element": char.element,
             }
             characters.append(char_dict)
 
-            # Build = light cone + relics
+            # Build info (light cone)
             build_dict = {
                 "character_id": char.id,
                 "character_name": char.name,
@@ -42,6 +39,29 @@ async def fetch_user_data(uid: int):
                 "light_cone_level": char.light_cone.level if getattr(char, "light_cone", None) else None,
             }
             builds.append(build_dict)
+
+            # Relics (flatten substats)
+            for relic in getattr(char, "relics", []):
+                relic_dict = {
+                    "character_name": char.name,
+                    "relic_id": relic.id,
+                    "slot": relic.type.name,
+                    "set_name": relic.set_name,
+                    "set_id": relic.set_id,
+                    "rarity": relic.rarity,
+                    "main_stat_name": relic.main_stat.name if relic.main_stat else None,
+                    "main_stat_value": relic.main_stat.value if relic.main_stat else None,
+                    "main_stat_is_percent": relic.main_stat.is_percentage if relic.main_stat else None,
+                    "icon": relic.icon,
+                }
+
+                # Flatten substats
+                for i, sub in enumerate(getattr(relic, "sub_stats", []), start=1):
+                    relic_dict[f"substat{i}_name"] = sub.name
+                    relic_dict[f"substat{i}_value"] = sub.value
+                    relic_dict[f"substat{i}_is_percent"] = sub.is_percentage
+
+                relics_data.append(relic_dict)
 
         # ---------- SAVE RAW JSON ----------
         raw_path = Path("data/raw")
@@ -52,10 +72,11 @@ async def fetch_user_data(uid: int):
             json.dump({
                 "player": player_info,
                 "characters": characters,
-                "builds": builds
+                "builds": builds,
+                "relics": relics_data
             }, f, indent=2, ensure_ascii=False)
 
-        print(f"✅ Raw data saved to {filename}")
+        print(f"Raw data saved to {filename}")
 
         # ---------- PRINT INFO ----------
         print("\n=== Player Info ===")
@@ -69,7 +90,17 @@ async def fetch_user_data(uid: int):
         print("\n=== Builds ===")
         for build in builds:
             print(f"Build for {build['character_name']}:")
-            print(f"  Light Cone: {build['light_cone']} (Level {build['light_cone_level']})")
+            print(f"Light Cone: {build['light_cone']} (Level {build['light_cone_level']})")
+            print("---")
+
+        print("\n=== Relics ===")
+        for relic in relics_data:
+            print(f"Character: {relic['character_name']}")
+            print(f"  Slot: {relic['slot']} | Set: {relic['set_name']} | Rarity: {relic['rarity']}")
+            print(f"  Main Stat: {relic['main_stat_name']} = {relic['main_stat_value']}")
+            for i in range(1, 6):
+                if f"substat{i}_name" in relic:
+                    print(f"  Substat{i}: {relic[f'substat{i}_name']} = {relic[f'substat{i}_value']}")
             print("---")
 
 
