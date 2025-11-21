@@ -9,49 +9,65 @@
       "character_id": 1408,
       "name": "Phainon",
       "level": 80,
-      "element": "Physical"
+      "element": "Physical",
+      "light_cone": "On the Fall of an Aeon",
+      "light_cone_level": 80
     },
     {
       "character_id": 1404,
       "name": "Mydei",
       "level": 80,
-      "element": "Imaginary"
+      "element": "Imaginary",
+      "light_cone": "The Unreachable Side",
+      "light_cone_level": 80
     },
     {
       "character_id": 1407,
       "name": "Castorice",
       "level": 80,
-      "element": "Quantum"
+      "element": "Quantum",
+      "light_cone": "Make Farewells More Beautiful",
+      "light_cone_level": 80
     },
     {
       "character_id": 1313,
       "name": "Sunday",
       "level": 80,
-      "element": "Imaginary"
+      "element": "Imaginary",
+      "light_cone": "A Grounded Ascent",
+      "light_cone_level": 80
     },
     {
       "character_id": 1409,
       "name": "Hyacine",
       "level": 80,
-      "element": "Wind"
+      "element": "Wind",
+      "light_cone": "Long May Rainbows Adorn the Sky",
+      "light_cone_level": 80
     },
     {
       "character_id": 1308,
       "name": "Acheron",
       "level": 80,
-      "element": "Thunder"
+      "element": "Thunder",
+      "light_cone": "Along the Passing Shore",
+      "light_cone_level": 80
     },
     {
       "character_id": 1205,
       "name": "Blade",
       "level": 80,
-      "element": "Wind"
+      "element": "Wind",
+      "light_cone": "Ninja Record: Sound Hunt",
+      "light_cone_level": 80
     },
     {
       "character_id": 1414,
       "name": "Dan Heng • Permansor Terrae",
       "level": 80,
-      "element": "Physical"
+      "element": "Physical",
+      "light_cone": "Though Worlds Apart",
+      "light_cone_level": 80
     }
   ],
   "stats": [
@@ -63,19 +79,7 @@
       "DEF": 1272.457832,
       "SPD": 101.6,
       "CRIT Rate": 0.7661599989999999,
-      "CRIT DMG": 2.2318,
-      "Break Effect": 0.0648,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.0,
-      "Effect Hit Rate": 0.15552,
-      "Effect RES": 0.0,
-      "Physical DMG Boost": 0.388803,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 2.2318
     },
     {
       "character_id": 1404,
@@ -85,19 +89,7 @@
       "DEF": 636.574308,
       "SPD": 127.632,
       "CRIT Rate": 0.40072,
-      "CRIT DMG": 1.9422,
-      "Break Effect": 0.11664,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.0,
-      "Effect Hit Rate": 0.0,
-      "Effect RES": 0.0432,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.388803
+      "CRIT DMG": 1.9422
     },
     {
       "character_id": 1407,
@@ -107,19 +99,7 @@
       "DEF": 920.1023999999999,
       "SPD": 87.4,
       "CRIT Rate": 0.386039998,
-      "CRIT DMG": 2.29188,
-      "Break Effect": 0.11664,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.0,
-      "Effect Hit Rate": 0.12528,
-      "Effect RES": 0.14688,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.24400000000000002,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 2.29188
     },
     {
       "character_id": 1313,
@@ -129,19 +109,7 @@
       "DEF": 1509.0093419999998,
       "SPD": 131.092,
       "CRIT Rate": 0.05,
-      "CRIT DMG": 2.44764,
-      "Break Effect": 0.22032,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.244394,
-      "Effect Hit Rate": 0.08208,
-      "Effect RES": 0.41759999999999997,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.388803,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 2.44764
     },
     {
       "character_id": 1409,
@@ -151,19 +119,7 @@
       "DEF": 1436.9815080000003,
       "SPD": 201.332,
       "CRIT Rate": 0.16016,
-      "CRIT DMG": 0.9082399999999999,
-      "Break Effect": 0.15552,
-      "Outgoing Healing Boost": 0.345606,
-      "Energy Regeneration Rate": 1.194394,
-      "Effect Hit Rate": 0.0,
-      "Effect RES": 0.25776,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 0.9082399999999999
     },
     {
       "character_id": 1308,
@@ -173,19 +129,7 @@
       "DEF": 1107.42801,
       "SPD": 126.032,
       "CRIT Rate": 0.5371199999999999,
-      "CRIT DMG": 2.22752,
-      "Break Effect": 0.11664,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.0,
-      "Effect Hit Rate": 0.0,
-      "Effect RES": 0.0432,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.08,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 2.22752
     },
     {
       "character_id": 1205,
@@ -195,91 +139,17 @@
       "DEF": 875.6781480000002,
       "SPD": 97.0,
       "CRIT Rate": 0.5934399989999999,
-      "CRIT DMG": 1.7635999999999998,
-      "Break Effect": 0.12312,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.0,
-      "Effect Hit Rate": 0.0,
-      "Effect RES": 0.1432,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.388803,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.0
+      "CRIT DMG": 1.7635999999999998
     },
     {
       "character_id": 1414,
       "character_name": "Dan Heng • Permansor Terrae",
       "HP": 3021.3496711999996,
-      "ATK": 4278.042979399999,
-      "DEF": 1884.031008,
+      "ATK": 4309.270785999999,
+      "DEF": 2004.4822199999999,
       "SPD": 129.332,
-      "CRIT Rate": 0.19579999999999997,
-      "CRIT DMG": 0.68144,
-      "Break Effect": 0.58968,
-      "Outgoing Healing Boost": 0.0,
-      "Energy Regeneration Rate": 1.244394,
-      "Effect Hit Rate": 0.12528,
-      "Effect RES": 0.07344,
-      "Physical DMG Boost": 0.0,
-      "Fire DMG Boost": 0.0,
-      "Ice DMG Boost": 0.0,
-      "Lightning DMG Boost": 0.0,
-      "Wind DMG Boost": 0.0,
-      "Quantum DMG Boost": 0.0,
-      "Imaginary DMG Boost": 0.0
-    }
-  ],
-  "builds": [
-    {
-      "character_id": 1408,
-      "character_name": "Phainon",
-      "light_cone": "On the Fall of an Aeon",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1404,
-      "character_name": "Mydei",
-      "light_cone": "The Unreachable Side",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1407,
-      "character_name": "Castorice",
-      "light_cone": "Make Farewells More Beautiful",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1313,
-      "character_name": "Sunday",
-      "light_cone": "A Grounded Ascent",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1409,
-      "character_name": "Hyacine",
-      "light_cone": "Long May Rainbows Adorn the Sky",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1308,
-      "character_name": "Acheron",
-      "light_cone": "Along the Passing Shore",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1205,
-      "character_name": "Blade",
-      "light_cone": "Ninja Record: Sound Hunt",
-      "light_cone_level": 80
-    },
-    {
-      "character_id": 1414,
-      "character_name": "Dan Heng • Permansor Terrae",
-      "light_cone": "Though Worlds Apart",
-      "light_cone_level": 80
+      "CRIT Rate": 0.13748,
+      "CRIT DMG": 0.7332799999999999
     }
   ],
   "relics": [
@@ -1375,16 +1245,16 @@
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_128_4.png",
       "substat1_name": "ATK",
-      "substat1_value": 0.108,
-      "substat1_is_percent": true,
-      "substat2_name": "DEF",
-      "substat2_value": 0.048600000000000004,
+      "substat1_value": 21.168773,
+      "substat1_is_percent": false,
+      "substat2_name": "ATK",
+      "substat2_value": 0.11664,
       "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.05832,
+      "substat3_name": "DEF",
+      "substat3_value": 0.14579999999999999,
       "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.11016,
+      "substat4_name": "CRIT DMG",
+      "substat4_value": 0.05184,
       "substat4_is_percent": true
     },
     {

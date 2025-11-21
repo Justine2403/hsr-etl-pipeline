@@ -16,43 +16,37 @@ async def fetch_user_data(uid: int):
             #"signature": data.player.signature,
         }
 
-        # ---------- CHARACTERS + BUILDS + RELICS ----------
+        # ---------- CHARACTERS + BUILDS ----------
         characters = []
-        builds = []
         stats_data = []
         relics_data = []
 
         for char in data.characters:
-            # Character info
+            # Character info and lightcone
             char_dict = {
                 "character_id": char.id,
                 "name": char.name,
                 "level": char.level,
                 "element": char.element,
+                "light_cone": char.light_cone.name if getattr(char, "light_cone", None) else None,
+                "light_cone_level": char.light_cone.level if getattr(char, "light_cone", None) else None
             }
             characters.append(char_dict)
 
-            # Build info (light cone)
-            build_dict = {
-                "character_id": char.id,
-                "character_name": char.name,
-                "light_cone": char.light_cone.name if getattr(char, "light_cone", None) else None,
-                "light_cone_level": char.light_cone.level if getattr(char, "light_cone", None) else None,
-            }
-            builds.append(build_dict)
-
+           
             # ---------- STATS ----------
             if getattr(char, "stats", None):
                 stats_dict = {"character_id": char.id, "character_name": char.name,  }
                 
                 # Fetch all stats dynamically
-                for _ in range(5):
-                    for stat_key, stat_obj in char.stats.items():
+                # Slice dictionnary to get only 6 first stats
+                for stat_key, stat_obj in list(char.stats.items())[:6]:
+                    for _ in range(5):
                         stats_dict[stat_obj.name] = stat_obj.value
 
                 stats_data.append(stats_dict)
 
-            # ---------- RELICS ----------
+            # ---------- BUILD/RELICS ----------
             for relic in getattr(char, "relics", []):
                 relic_dict = {
                     "character_name": char.name,
@@ -86,17 +80,16 @@ async def fetch_user_data(uid: int):
                 "player": player_info,
                 "characters": characters,
                 "stats": stats_data,
-                "builds": builds,
                 "relics": relics_data
             }, f, indent=2, ensure_ascii=False)
 
         print(f"Raw data saved to {filename}")
 
-
-        # ---------- PRINT INFO ----------
-        for char, build in zip(characters, builds):
+        # ---------- PRINT INFO TO CHECK ----------
+        for char in characters:
             print(f"\nCharacter: {char['name']} | Level {char['level']} | Element: {char['element']}")
-           
+            print(f"\nLightcone: {char['light_cone']} | Level {char['light_cone_level']}")
+
             # Main stats
 
             print("\nStats: ")
@@ -104,8 +97,6 @@ async def fetch_user_data(uid: int):
             if char_stats:
                 stat_lines = [f"{k}: {v}" for k, v in char_stats.items() if k != "character_name"]
                 print(" | ".join(stat_lines))
-
-            print(f"\nLight Cone: {build['light_cone']} (Level {build['light_cone_level']})")
         
             # Relics for this character
             char_relics = [r for r in relics_data if r['character_name'] == char['name']]
