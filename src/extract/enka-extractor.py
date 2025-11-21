@@ -13,12 +13,13 @@ async def fetch_user_data(uid: int):
             "uid": uid,
             "nickname": data.player.nickname,
             "level": data.player.level,
-            "signature": data.player.signature,
+            #"signature": data.player.signature,
         }
 
         # ---------- CHARACTERS + BUILDS + RELICS ----------
         characters = []
         builds = []
+        stats_data = []
         relics_data = []
 
         for char in data.characters:
@@ -40,7 +41,17 @@ async def fetch_user_data(uid: int):
             }
             builds.append(build_dict)
 
-            # Relics (flatten substats)
+            # ---------- STATS ----------
+            if getattr(char, "stats", None):
+                stats_dict = {"character_id": char.id, "character_name": char.name,  }
+                
+                # Fetch all stats dynamically, same style as relics
+                for stat_key, stat_obj in char.stats.items():
+                    stats_dict[stat_obj.name] = stat_obj.value
+
+                stats_data.append(stats_dict)
+
+            # ---------- RELICS ----------
             for relic in getattr(char, "relics", []):
                 relic_dict = {
                     "character_name": char.name,
@@ -63,6 +74,7 @@ async def fetch_user_data(uid: int):
 
                 relics_data.append(relic_dict)
 
+
         # ---------- SAVE RAW JSON ----------
         raw_path = Path("data/raw")
         raw_path.mkdir(parents=True, exist_ok=True)
@@ -72,37 +84,42 @@ async def fetch_user_data(uid: int):
             json.dump({
                 "player": player_info,
                 "characters": characters,
+                "stats": stats_data,
                 "builds": builds,
                 "relics": relics_data
             }, f, indent=2, ensure_ascii=False)
 
         print(f"Raw data saved to {filename}")
 
+
         # ---------- PRINT INFO ----------
-        print("\n=== Player Info ===")
-        for k, v in player_info.items():
-            print(f"{k}: {v}")
+        for char, build in zip(characters, builds):
+            print(f"\nCharacter: {char['name']} | Level {char['level']} | Element: {char['element']}")
+           
+            # Main stats
 
-        print("\n=== Characters ===")
-        for char in characters:
-            print(f"{char['name']} | Level: {char['level']} | Element: {char['element']}")
+            print("\nStats: ")
+            char_stats = next((s for s in stats_data if s['character_name'] == char['name']), {})
+            if char_stats:
+                stat_lines = [f"{k}: {v}" for k, v in char_stats.items() if k != "character_name"]
+                print(" | ".join(stat_lines))
 
-        print("\n=== Builds ===")
-        for build in builds:
-            print(f"Build for {build['character_name']}:")
-            print(f"Light Cone: {build['light_cone']} (Level {build['light_cone_level']})")
-            print("---")
-
-        print("\n=== Relics ===")
-        for relic in relics_data:
-            print(f"Character: {relic['character_name']}")
-            print(f"  Slot: {relic['slot']} | Set: {relic['set_name']} | Rarity: {relic['rarity']}")
-            print(f"  Main Stat: {relic['main_stat_name']} = {relic['main_stat_value']}")
-            for i in range(1, 6):
-                if f"substat{i}_name" in relic:
-                    print(f"  Substat{i}: {relic[f'substat{i}_name']} = {relic[f'substat{i}_value']}")
-            print("---")
-
+            print(f"\nLight Cone: {build['light_cone']} (Level {build['light_cone_level']})")
+        
+            # Relics for this character
+            char_relics = [r for r in relics_data if r['character_name'] == char['name']]
+            print("\nRelics: ")
+            for relic in char_relics:
+                print(f"  [{relic['slot']}] {relic['set_name']} (Rarity: {relic['rarity']})")
+                print(f"    Main: {relic['main_stat_name']} = {relic['main_stat_value']}")
+                substats = []
+                for i in range(1, 6):
+                    if f"substat{i}_name" in relic:
+                        substats.append(f"{relic[f'substat{i}_name']} = {relic[f'substat{i}_value']}")
+                if substats:
+                    print("    Substats: " + " | ".join(substats))
+                print("\n")
+            print("-"*50)
 
 if __name__ == "__main__":
     uid = 700712292
