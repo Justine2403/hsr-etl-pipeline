@@ -1,0 +1,108 @@
+{
+  "player": {
+    "uid": 700712292,
+    "nickname": "Aeri",
+    "level": 70,
+    "signature": "i love you so much phainon | future E2S1 owner"
+  },
+  "characters": [
+    {
+      "character_id": 1408,
+      "name": "Phainon",
+      "level": 80,
+      "element": "Physical"
+    },
+    {
+      "character_id": 1404,
+      "name": "Mydei",
+      "level": 80,
+      "element": "Imaginary"
+    },
+    {
+      "character_id": 1407,
+      "name": "Castorice",
+      "level": 80,
+      "element": "Quantum"
+    },
+    {
+      "character_id": 1313,
+      "name": "Sunday",
+      "level": 80,
+      "element": "Imaginary"
+    },
+    {
+      "character_id": 1409,
+      "name": "Hyacine",
+      "level": 80,
+      "element": "Wind"
+    },
+    {
+      "character_id": 1308,
+      "name": "Acheron",
+      "level": 80,
+      "element": "Thunder"
+    },
+    {
+      "character_id": 1205,
+      "name": "Blade",
+      "level": 80,
+      "element": "Wind"
+    },
+    {
+      "character_id": 1414,
+      "name": "Dan Heng • Permansor Terrae",
+      "level": 80,
+      "element": "Physical"
+    }
+  ],
+  "builds": [
+    {
+      "character_id": 1408,
+      "character_name": "Phainon",
+      "light_cone": "On the Fall of an Aeon",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1404,
+      "character_name": "Mydei",
+      "light_cone": "The Unreachable Side",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1407,
+      "character_name": "Castorice",
+      "light_cone": "Make Farewells More Beautiful",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1313,
+      "character_name": "Sunday",
+      "light_cone": "A Grounded Ascent",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1409,
+      "character_name": "Hyacine",
+      "light_cone": "Long May Rainbows Adorn the Sky",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1308,
+      "character_name": "Acheron",
+      "light_cone": "Along the Passing Shore",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1205,
+      "character_name": "Blade",
+      "light_cone": "Ninja Record: Sound Hunt",
+      "light_cone_level": 80
+    },
+    {
+      "character_id": 1414,
+      "character_name": "Dan Heng • Permansor Terrae",
+      "light_cone": "Though Worlds Apart",
+      "light_cone_level": 80
+    }
+  ]
+}
