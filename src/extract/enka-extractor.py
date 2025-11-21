@@ -45,9 +45,10 @@ async def fetch_user_data(uid: int):
             if getattr(char, "stats", None):
                 stats_dict = {"character_id": char.id, "character_name": char.name,  }
                 
-                # Fetch all stats dynamically, same style as relics
-                for stat_key, stat_obj in char.stats.items():
-                    stats_dict[stat_obj.name] = stat_obj.value
+                # Fetch all stats dynamically
+                for _ in range(5):
+                    for stat_key, stat_obj in char.stats.items():
+                        stats_dict[stat_obj.name] = stat_obj.value
 
                 stats_data.append(stats_dict)
 
