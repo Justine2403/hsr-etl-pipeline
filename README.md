@@ -8,5 +8,5 @@ The objective is to design a complete workflow that retrieves raw game data, org
 - Players: general profile data such as UID, nickname, and level
 - Characters: Characters informations displayed in the Character Showcase
 - Builds: lightcone, relics and stats for each character from the Character Showcase
-- 
+
 This approach allows automated, structured data collection for analysis without manual data entry.
