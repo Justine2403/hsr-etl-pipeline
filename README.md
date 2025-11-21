@@ -3,4 +3,10 @@ This repository contains a data project built around **Honkai: Star Rail** chara
 The objective is to design a complete workflow that retrieves raw game data, organizes it into a structured format, and produces meaningful insights such as character summaries and build evaluations.
 
 # Extraction
-[EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) is used to collect data from the player. It fetches player, characters and their builds informations from the Character Showcase using a web API.
+[EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract data from player profiles. Data is collected by sending requests to the API, which returns detailed information about:
+
+- Players: general profile data such as UID, nickname, and level
+- Characters: Characters informations displayed in the Character Showcase
+- Builds: lightcone, relics and stats for each character from the Character Showcase
+- 
+This approach allows automated, structured data collection for analysis without manual data entry.
