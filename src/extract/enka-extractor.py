@@ -47,7 +47,7 @@ async def fetch_user_data(uid: int):
                 stats_data.append(stats_dict)
 
             # ---------- BUILD/RELICS ----------
-            for relic in getattr(char, "relics", []):
+            if getattr(char, "relics", None):
                 relic_dict = {
                     "character_name": char.name,
                     "relic_id": relic.id,
@@ -107,12 +107,14 @@ async def fetch_user_data(uid: int):
                 substats = []
                 for i in range(1, 6):
                     if f"substat{i}_name" in relic:
+
                         substats.append(f"{relic[f'substat{i}_name']} = {relic[f'substat{i}_value']}")
                 if substats:
-                    print("    Substats: " + " | ".join(substats))
+                    print("Substats: " + " | ".join(substats))
                 print("\n")
             print("-"*50)
 
 if __name__ == "__main__":
     uid = 700712292
-    asyncio.run(fetch_user_data(uid))
+    uid_test = 721686624
+    asyncio.run(fetch_user_data(uid_test))

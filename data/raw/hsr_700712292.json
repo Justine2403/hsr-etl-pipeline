@@ -10,7 +10,7 @@
       "name": "Phainon",
       "level": 80,
       "element": "Physical",
-      "light_cone": "On the Fall of an Aeon",
+      "light_cone": "Thus Burns the Dawn",
       "light_cone_level": 80
     },
     {
@@ -74,10 +74,10 @@
     {
       "character_id": 1408,
       "character_name": "Phainon",
-      "HP": 3719.437261360001,
-      "ATK": 2500.8114912,
+      "HP": 3596.22256696,
+      "ATK": 2802.2268768,
       "DEF": 1272.457832,
-      "SPD": 101.6,
+      "SPD": 113.6,
       "CRIT Rate": 0.7661599989999999,
       "CRIT DMG": 2.2318
     },
