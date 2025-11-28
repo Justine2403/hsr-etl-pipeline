@@ -1,49 +1,49 @@
-uid,character_name,slot,set_name,rarity,main_stat_name,main_stat_value,main_stat_is_percent,substat_name,substat_value,substat_is_percent,num_substats
-700712292,Phainon,HEAD,Wavestrider Captain,5,HP,705.5999999999999,False,DEF,38.103792,False,4
-700712292,Phainon,HAND,Wavestrider Captain,5,ATK,352.79999999999995,False,DEF,21.168773,False,4
-700712292,Phainon,BODY,Wavestrider Captain,5,CRIT Rate,0.324,True,DEF,19.051896,False,4
-700712292,Phainon,FOOT,Wavestrider Captain,5,ATK,0.43200000000000005,True,SPD,2.6,False,4
-700712292,Phainon,ROPE,Arcadia of Woven Dreams,5,Physical DMG Boost,0.388803,True,DEF,0.1026,True,4
-700712292,Phainon,ORBIT,Arcadia of Woven Dreams,5,ATK,0.43200000000000005,True,ATK,35.986915,False,4
-700712292,Mydei,HEAD,Scholar Lost in Erudition,5,HP,705.5999999999999,False,ATK,16.935019,False,4
-700712292,Mydei,HAND,Scholar Lost in Erudition,5,ATK,352.79999999999995,False,HP,0.08208,True,4
-700712292,Mydei,BODY,Scholar Lost in Erudition,5,CRIT DMG,0.648,True,ATK,33.870038,False,4
-700712292,Mydei,FOOT,Scholar Lost in Erudition,5,SPD,25.032,False,HP,0.11664,True,4
-700712292,Mydei,ROPE,Bone Collection's Serene Demesne,5,Imaginary DMG Boost,0.388803,True,HP,0.11664,True,4
-700712292,Mydei,ORBIT,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,ATK,38.103792,False,4
-700712292,Castorice,HEAD,Poet of Mourning Collapse,5,HP,705.5999999999999,False,ATK,59.27256500000001,False,4
-700712292,Castorice,HAND,Poet of Mourning Collapse,5,ATK,352.79999999999995,False,HP,0.08208,True,4
-700712292,Castorice,BODY,Poet of Mourning Collapse,5,CRIT DMG,0.648,True,HP,42.33755000000001,False,4
-700712292,Castorice,FOOT,Poet of Mourning Collapse,5,HP,0.43200000000000005,True,ATK,40.220669,False,4
-700712292,Castorice,ROPE,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,HP,84.67510000000001,False,4
-700712292,Castorice,ORBIT,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,DEF,38.103792,False,4
-700712292,Sunday,HEAD,Sacerdos' Relived Ordeal,5,HP,705.5999999999999,False,DEF,38.103792,False,4
-700712292,Sunday,HAND,Sacerdos' Relived Ordeal,5,ATK,352.79999999999995,False,HP,76.20759000000001,False,4
-700712292,Sunday,BODY,Sacerdos' Relived Ordeal,5,CRIT DMG,0.648,True,ATK,21.168773,False,4
-700712292,Sunday,FOOT,Sacerdos' Relived Ordeal,5,SPD,25.032,False,DEF,35.986915,False,4
-700712292,Sunday,ROPE,"Lushaka, the Sunken Seas",5,Quantum DMG Boost,0.388803,True,ATK,55.038811,False,4
-700712292,Sunday,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,0.19439399999999998,True,ATK,33.870038,False,4
-700712292,Hyacine,HEAD,Warrior Goddess of Sun and Thunder,5,HP,705.5999999999999,False,HP,0.11664,True,4
-700712292,Hyacine,HAND,Warrior Goddess of Sun and Thunder,5,ATK,352.79999999999995,False,DEF,19.051896,False,4
-700712292,Hyacine,BODY,Warrior Goddess of Sun and Thunder,5,Outgoing Healing Boost,0.345606,True,HP,71.97383500000001,False,4
-700712292,Hyacine,FOOT,Warrior Goddess of Sun and Thunder,5,SPD,25.032,False,HP,110.07763000000001,False,4
-700712292,Hyacine,ROPE,Giant Tree of Rapt Brooding,5,HP,0.43200000000000005,True,ATK,0.12096,True,4
-700712292,Hyacine,ORBIT,Giant Tree of Rapt Brooding,5,Energy Regeneration Rate,0.19439399999999998,True,ATK,35.986915,False,4
-700712292,Acheron,HEAD,Pioneer Diver of Dead Waters,5,HP,705.5999999999999,False,ATK,40.220669,False,4
-700712292,Acheron,HAND,Pioneer Diver of Dead Waters,5,ATK,352.79999999999995,False,DEF,16.935019,False,4
-700712292,Acheron,BODY,Pioneer Diver of Dead Waters,5,CRIT DMG,0.648,True,ATK,61.389442,False,4
-700712292,Acheron,FOOT,Pioneer Diver of Dead Waters,5,SPD,25.032,False,HP,76.20759000000001,False,4
-700712292,Acheron,ROPE,Izumo Gensei and Takama Divine Realm,5,ATK,0.43200000000000005,True,DEF,42.337546,False,4
-700712292,Acheron,ORBIT,Izumo Gensei and Takama Divine Realm,5,ATK,0.43200000000000005,True,HP,71.97383500000001,False,4
-700712292,Blade,HEAD,Longevous Disciple,5,HP,705.5999999999999,False,HP,0.12528,True,4
-700712292,Blade,HAND,Longevous Disciple,5,ATK,352.79999999999995,False,HP,0.07776,True,4
-700712292,Blade,BODY,Longevous Disciple,5,CRIT DMG,0.648,True,DEF,19.051896,False,4
-700712292,Blade,FOOT,Longevous Disciple,5,HP,0.43200000000000005,True,DEF,38.103792,False,4
-700712292,Blade,ROPE,Rutilant Arena,5,Wind DMG Boost,0.388803,True,HP,71.97383500000001,False,4
-700712292,Blade,ORBIT,Rutilant Arena,5,HP,0.43200000000000005,True,HP,80.44134500000001,False,4
-700712292,Dan Heng • Permansor Terrae,HEAD,Self-Enshrouded Recluse,5,HP,705.5999999999999,False,ATK,0.15984,True,4
-700712292,Dan Heng • Permansor Terrae,HAND,Self-Enshrouded Recluse,5,ATK,352.79999999999995,False,HP,118.54514,False,4
-700712292,Dan Heng • Permansor Terrae,BODY,Self-Enshrouded Recluse,5,ATK,0.43200000000000005,True,ATK,40.220669,False,4
-700712292,Dan Heng • Permansor Terrae,FOOT,Self-Enshrouded Recluse,5,SPD,25.032,False,ATK,21.168773,False,4
-700712292,Dan Heng • Permansor Terrae,ROPE,"Lushaka, the Sunken Seas",5,ATK,0.43200000000000005,True,DEF,0.10800000000000001,True,4
-700712292,Dan Heng • Permansor Terrae,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,0.19439399999999998,True,DEF,19.051896,False,4
+uid,character_name,slot,set_name,rarity,main_stat_name,main_stat_value,main_stat_is_percent,substats,num_substats
+700712292,Phainon,HEAD,Wavestrider Captain,5,HP,705.0,False,"[{'name': 'DEF', 'value': 38, 'is_percent': False}, {'name': 'ATK', 'value': 3.46, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 6.16, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 22.68, 'is_percent': True}]",4
+700712292,Phainon,HAND,Wavestrider Captain,5,ATK,352.0,False,"[{'name': 'DEF', 'value': 21, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 3.24, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 26.57, 'is_percent': True}, {'name': 'Break Effect', 'value': 6.48, 'is_percent': True}]",4
+700712292,Phainon,BODY,Wavestrider Captain,5,CRIT Rate,32.4,True,"[{'name': 'DEF', 'value': 19, 'is_percent': False}, {'name': 'ATK', 'value': 3.89, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.14, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 15.55, 'is_percent': True}]",4
+700712292,Phainon,FOOT,Wavestrider Captain,5,ATK,43.2,True,"[{'name': 'SPD', 'value': 2, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 8.42, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 12.31, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 11.66, 'is_percent': True}]",4
+700712292,Phainon,ROPE,Arcadia of Woven Dreams,5,Physical DMG Boost,38.88,True,"[{'name': 'DEF', 'value': 10.26, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.14, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.18, 'is_percent': True}]",4
+700712292,Phainon,ORBIT,Arcadia of Woven Dreams,5,ATK,43.2,True,"[{'name': 'ATK', 'value': 35, 'is_percent': False}, {'name': 'HP', 'value': 3.46, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 23.98, 'is_percent': True}, {'name': 'Effect RES', 'value': 4.32, 'is_percent': True}]",4
+700712292,Mydei,HEAD,Scholar Lost in Erudition,5,HP,705.0,False,"[{'name': 'ATK', 'value': 16, 'is_percent': False}, {'name': 'HP', 'value': 7.34, 'is_percent': True}, {'name': 'DEF', 'value': 9.72, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.79, 'is_percent': True}]",4
+700712292,Mydei,HAND,Scholar Lost in Erudition,5,ATK,352.0,False,"[{'name': 'HP', 'value': 8.21, 'is_percent': True}, {'name': 'ATK', 'value': 8.21, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 2.59, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 17.5, 'is_percent': True}]",4
+700712292,Mydei,BODY,Scholar Lost in Erudition,5,CRIT DMG,64.8,True,"[{'name': 'ATK', 'value': 33, 'is_percent': False}, {'name': 'HP', 'value': 12.1, 'is_percent': True}, {'name': 'DEF', 'value': 4.86, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}]",4
+700712292,Mydei,FOOT,Scholar Lost in Erudition,5,SPD,25.0,False,"[{'name': 'HP', 'value': 11.66, 'is_percent': True}, {'name': 'ATK', 'value': 3.46, 'is_percent': True}, {'name': 'DEF', 'value': 4.32, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 17.5, 'is_percent': True}]",4
+700712292,Mydei,ROPE,Bone Collection's Serene Demesne,5,Imaginary DMG Boost,38.88,True,"[{'name': 'HP', 'value': 11.66, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 11.66, 'is_percent': True}, {'name': 'Effect RES', 'value': 4.32, 'is_percent': True}, {'name': 'Break Effect', 'value': 11.66, 'is_percent': True}]",4
+700712292,Mydei,ORBIT,Bone Collection's Serene Demesne,5,HP,43.2,True,"[{'name': 'ATK', 'value': 38, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 2.59, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 24.62, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 4.32, 'is_percent': True}]",4
+700712292,Castorice,HEAD,Poet of Mourning Collapse,5,HP,705.0,False,"[{'name': 'ATK', 'value': 59, 'is_percent': False}, {'name': 'HP', 'value': 3.46, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.79, 'is_percent': True}, {'name': 'Effect RES', 'value': 3.46, 'is_percent': True}]",4
+700712292,Castorice,HAND,Poet of Mourning Collapse,5,ATK,352.0,False,"[{'name': 'HP', 'value': 8.21, 'is_percent': True}, {'name': 'DEF', 'value': 4.32, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 6.48, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 16.2, 'is_percent': True}]",4
+700712292,Castorice,BODY,Poet of Mourning Collapse,5,CRIT DMG,64.8,True,"[{'name': 'HP', 'value': 42, 'is_percent': False}, {'name': 'HP', 'value': 12.53, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 8.21, 'is_percent': True}, {'name': 'Effect RES', 'value': 7.78, 'is_percent': True}]",4
+700712292,Castorice,FOOT,Poet of Mourning Collapse,5,HP,43.2,True,"[{'name': 'ATK', 'value': 40, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.79, 'is_percent': True}, {'name': 'Break Effect', 'value': 6.48, 'is_percent': True}]",4
+700712292,Castorice,ROPE,Bone Collection's Serene Demesne,5,HP,43.2,True,"[{'name': 'HP', 'value': 84, 'is_percent': False}, {'name': 'CRIT DMG', 'value': 22.68, 'is_percent': True}, {'name': 'Effect RES', 'value': 3.46, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.18, 'is_percent': True}]",4
+700712292,Castorice,ORBIT,Bone Collection's Serene Demesne,5,HP,43.2,True,"[{'name': 'DEF', 'value': 38, 'is_percent': False}, {'name': 'ATK', 'value': 4.32, 'is_percent': True}, {'name': 'SPD', 'value': 2, 'is_percent': False}, {'name': 'CRIT DMG', 'value': 23.98, 'is_percent': True}]",4
+700712292,Sunday,HEAD,Sacerdos' Relived Ordeal,5,HP,705.0,False,"[{'name': 'DEF', 'value': 38, 'is_percent': False}, {'name': 'DEF', 'value': 5.4, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 21.38, 'is_percent': True}, {'name': 'Effect RES', 'value': 8.21, 'is_percent': True}]",4
+700712292,Sunday,HAND,Sacerdos' Relived Ordeal,5,ATK,352.0,False,"[{'name': 'HP', 'value': 76, 'is_percent': False}, {'name': 'SPD', 'value': 4, 'is_percent': False}, {'name': 'CRIT DMG', 'value': 23.33, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 4.32, 'is_percent': True}]",4
+700712292,Sunday,BODY,Sacerdos' Relived Ordeal,5,CRIT DMG,64.8,True,"[{'name': 'ATK', 'value': 21, 'is_percent': False}, {'name': 'Effect Hit Rate', 'value': 3.89, 'is_percent': True}, {'name': 'Effect RES', 'value': 11.66, 'is_percent': True}, {'name': 'Break Effect', 'value': 16.85, 'is_percent': True}]",4
+700712292,Sunday,FOOT,Sacerdos' Relived Ordeal,5,SPD,25.0,False,"[{'name': 'DEF', 'value': 35, 'is_percent': False}, {'name': 'DEF', 'value': 15.12, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 12.31, 'is_percent': True}, {'name': 'Effect RES', 'value': 3.89, 'is_percent': True}]",4
+700712292,Sunday,ROPE,"Lushaka, the Sunken Seas",5,Quantum DMG Boost,38.88,True,"[{'name': 'ATK', 'value': 55, 'is_percent': False}, {'name': 'DEF', 'value': 21, 'is_percent': False}, {'name': 'CRIT DMG', 'value': 17.5, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.18, 'is_percent': True}]",4
+700712292,Sunday,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,19.44,True,"[{'name': 'ATK', 'value': 33, 'is_percent': False}, {'name': 'HP', 'value': 7.34, 'is_percent': True}, {'name': 'ATK', 'value': 3.46, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.14, 'is_percent': True}]",4
+700712292,Hyacine,HEAD,Warrior Goddess of Sun and Thunder,5,HP,705.0,False,"[{'name': 'HP', 'value': 11.66, 'is_percent': True}, {'name': 'SPD', 'value': 4, 'is_percent': False}, {'name': 'Effect RES', 'value': 4.32, 'is_percent': True}, {'name': 'Break Effect', 'value': 10.37, 'is_percent': True}]",4
+700712292,Hyacine,HAND,Warrior Goddess of Sun and Thunder,5,ATK,352.0,False,"[{'name': 'DEF', 'value': 19, 'is_percent': False}, {'name': 'SPD', 'value': 12, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 2.59, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 5.18, 'is_percent': True}]",4
+700712292,Hyacine,BODY,Warrior Goddess of Sun and Thunder,5,Outgoing Healing Boost,34.56,True,"[{'name': 'HP', 'value': 71, 'is_percent': False}, {'name': 'DEF', 'value': 33, 'is_percent': False}, {'name': 'HP', 'value': 11.66, 'is_percent': True}, {'name': 'DEF', 'value': 4.86, 'is_percent': True}]",4
+700712292,Hyacine,FOOT,Warrior Goddess of Sun and Thunder,5,SPD,25.0,False,"[{'name': 'HP', 'value': 110, 'is_percent': False}, {'name': 'DEF', 'value': 9.18, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 11.02, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.18, 'is_percent': True}]",4
+700712292,Hyacine,ROPE,Giant Tree of Rapt Brooding,5,HP,43.2,True,"[{'name': 'ATK', 'value': 12.1, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 2.59, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 24.62, 'is_percent': True}, {'name': 'Effect RES', 'value': 3.46, 'is_percent': True}]",4
+700712292,Hyacine,ORBIT,Giant Tree of Rapt Brooding,5,Energy Regeneration Rate,19.44,True,"[{'name': 'ATK', 'value': 35, 'is_percent': False}, {'name': 'DEF', 'value': 61, 'is_percent': False}, {'name': 'SPD', 'value': 2, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}]",4
+700712292,Acheron,HEAD,Pioneer Diver of Dead Waters,5,HP,705.0,False,"[{'name': 'ATK', 'value': 40, 'is_percent': False}, {'name': 'DEF', 'value': 52, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 9.4, 'is_percent': True}, {'name': 'Effect RES', 'value': 4.32, 'is_percent': True}]",4
+700712292,Acheron,HAND,Pioneer Diver of Dead Waters,5,ATK,352.0,False,"[{'name': 'DEF', 'value': 16, 'is_percent': False}, {'name': 'ATK', 'value': 7.34, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 8.42, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 12.31, 'is_percent': True}]",4
+700712292,Acheron,BODY,Pioneer Diver of Dead Waters,5,CRIT DMG,64.8,True,"[{'name': 'ATK', 'value': 61, 'is_percent': False}, {'name': 'DEF', 'value': 40, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 9.07, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.18, 'is_percent': True}]",4
+700712292,Acheron,FOOT,Pioneer Diver of Dead Waters,5,SPD,25.0,False,"[{'name': 'HP', 'value': 76, 'is_percent': False}, {'name': 'HP', 'value': 3.89, 'is_percent': True}, {'name': 'DEF', 'value': 14.58, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 8.75, 'is_percent': True}]",4
+700712292,Acheron,ROPE,Izumo Gensei and Takama Divine Realm,5,ATK,43.2,True,"[{'name': 'DEF', 'value': 42, 'is_percent': False}, {'name': 'HP', 'value': 7.78, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 12.31, 'is_percent': True}]",4
+700712292,Acheron,ORBIT,Izumo Gensei and Takama Divine Realm,5,ATK,43.2,True,"[{'name': 'HP', 'value': 71, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 3.24, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 23.33, 'is_percent': True}, {'name': 'Break Effect', 'value': 6.48, 'is_percent': True}]",4
+700712292,Blade,HEAD,Longevous Disciple,5,HP,705.0,False,"[{'name': 'HP', 'value': 12.53, 'is_percent': True}, {'name': 'DEF', 'value': 4.86, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 5.51, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 10.37, 'is_percent': True}]",4
+700712292,Blade,HAND,Longevous Disciple,5,ATK,352.0,False,"[{'name': 'HP', 'value': 7.78, 'is_percent': True}, {'name': 'DEF', 'value': 4.32, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 5.83, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.14, 'is_percent': True}]",4
+700712292,Blade,BODY,Longevous Disciple,5,CRIT DMG,64.8,True,"[{'name': 'DEF', 'value': 19, 'is_percent': False}, {'name': 'HP', 'value': 3.46, 'is_percent': True}, {'name': 'ATK', 'value': 11.66, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 8.1, 'is_percent': True}]",4
+700712292,Blade,FOOT,Longevous Disciple,5,HP,43.2,True,"[{'name': 'DEF', 'value': 38, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 3.24, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 20.74, 'is_percent': True}, {'name': 'Break Effect', 'value': 6.48, 'is_percent': True}]",4
+700712292,Blade,ROPE,Rutilant Arena,5,Wind DMG Boost,38.88,True,"[{'name': 'HP', 'value': 71, 'is_percent': False}, {'name': 'ATK', 'value': 40, 'is_percent': False}, {'name': 'HP', 'value': 8.21, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 12.31, 'is_percent': True}]",4
+700712292,Blade,ORBIT,Rutilant Arena,5,HP,43.2,True,"[{'name': 'HP', 'value': 80, 'is_percent': False}, {'name': 'CRIT Rate', 'value': 11.66, 'is_percent': True}, {'name': 'Effect RES', 'value': 4.32, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.83, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,HEAD,Self-Enshrouded Recluse,5,HP,705.0,False,"[{'name': 'ATK', 'value': 15.98, 'is_percent': True}, {'name': 'SPD', 'value': 2, 'is_percent': False}, {'name': 'Effect Hit Rate', 'value': 8.64, 'is_percent': True}, {'name': 'Break Effect', 'value': 12.96, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,HAND,Self-Enshrouded Recluse,5,ATK,352.0,False,"[{'name': 'HP', 'value': 118, 'is_percent': False}, {'name': 'ATK', 'value': 12.53, 'is_percent': True}, {'name': 'Effect RES', 'value': 7.34, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.83, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,BODY,Self-Enshrouded Recluse,5,ATK,43.2,True,"[{'name': 'ATK', 'value': 40, 'is_percent': False}, {'name': 'DEF', 'value': 19, 'is_percent': False}, {'name': 'HP', 'value': 4.32, 'is_percent': True}, {'name': 'Break Effect', 'value': 23.33, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,FOOT,Self-Enshrouded Recluse,5,SPD,25.0,False,"[{'name': 'ATK', 'value': 21, 'is_percent': False}, {'name': 'ATK', 'value': 11.66, 'is_percent': True}, {'name': 'DEF', 'value': 14.58, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 5.18, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,ROPE,"Lushaka, the Sunken Seas",5,ATK,43.2,True,"[{'name': 'DEF', 'value': 10.8, 'is_percent': True}, {'name': 'CRIT Rate', 'value': 8.75, 'is_percent': True}, {'name': 'CRIT DMG', 'value': 18.14, 'is_percent': True}, {'name': 'Effect Hit Rate', 'value': 3.89, 'is_percent': True}]",4
+700712292,Dan Heng • Permansor Terrae,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,19.44,True,"[{'name': 'DEF', 'value': 19, 'is_percent': False}, {'name': 'ATK', 'value': 15.98, 'is_percent': True}, {'name': 'DEF', 'value': 10.8, 'is_percent': True}, {'name': 'Break Effect', 'value': 5.83, 'is_percent': True}]",4

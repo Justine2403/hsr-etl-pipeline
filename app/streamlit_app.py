@@ -7,7 +7,6 @@ RAW_DIR = Path("data/raw")
 PROCESSED_DIR = Path("data/processed")
 
 st.set_page_config(page_title="HSR Analyzer", layout="wide")
-
 st.title("⭐ Honkai Star Rail – Profile Viewer")
 
 # USER INPUT
@@ -31,24 +30,20 @@ if uid:
 
     # PLAYER INFO
     st.header("👤 Player Info")
-
     player = raw["player"]
-
     col1, col2, col3 = st.columns(3)
     col1.metric("UID", player["uid"])
     col2.metric("Nickname", player["nickname"])
     col3.metric("Account Level", player["level"])
-
     st.divider()
 
     # CHARACTER INFO
     st.header("🧍 Characters")
-
     for char_name in chars_df["character_name"].unique():
         char_data = chars_df[chars_df["character_name"] == char_name].iloc[0]
 
         with st.expander(f"{char_data['character_name']} — Lv. {char_data['character_level']}"):
-            
+
             # Character base info
             st.subheader("Character Info")
             c1, c2, c3, c4 = st.columns(4)
@@ -59,7 +54,6 @@ if uid:
 
             # Stats
             st.subheader("Stats")
-
             stats_cols = st.columns(6)
             stats_cols[0].metric("HP", char_data["HP"])
             stats_cols[1].metric("ATK", char_data["ATK"])
@@ -72,16 +66,31 @@ if uid:
 
             # RELICS FOR THIS CHARACTER
             st.subheader("Relics")
+            char_relics = [r for r in raw.get("relics", []) if r["character_name"] == char_name]
 
-            relics = relics_df[relics_df["character_name"] == char_name]
-
-            for _, relic in relics.iterrows():
+            for relic in char_relics:
                 with st.container():
                     st.markdown(f"### {relic['slot']} — ⭐{relic['rarity']} {relic['set_name']}")
-                    
-                    r1, r2 = st.columns(2)
-                    r1.write(f"**Main Stat**: {relic['main_stat_name']} = {relic['main_stat_value']}")
-                    r2.write(f"**Substat**: {relic['substat_name']} ({relic['substat_value']})")
-                    st.caption(f"Number of substats: {relic['num_substats']}")
+
+                    # Display relic icon if exists
+                    if relic.get("icon"):
+                        st.image(relic["icon"], width=60)
+
+                    main_value = relic['main_stat_value']
+                    if relic.get('main_stat_is_percent'):
+                        main_value = round(main_value, 2)
+                    else:
+                        main_value = int(main_value)
+
+                    st.write(f"**Main Stat**: {relic['main_stat_name']} = {main_value}")
+                    # Substats (all)
+                    if relic.get("substats"):
+                        for sub in relic["substats"]:
+                            val = sub["value"]
+                            if sub.get("is_percent"):
+                                val = round(val, 2)
+                            else:
+                                val = int(val)
+                            st.write(f"**Substat**: {sub['name']} = {val}")
 
                     st.divider()
