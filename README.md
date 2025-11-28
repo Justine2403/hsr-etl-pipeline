@@ -14,7 +14,7 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
 - Separation of dev and prod dependencies: avoid installing unnecessary packages in production environments
   - Dev dependencies include tools for testing and formatting
   - Prod dependencies include libraries required to run the project
-- Easy script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
+- Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
 
 ## Extraction
 We use [EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract data from player profiles. Data is collected by sending requests to the API using async/await, which returns detailed information about:
