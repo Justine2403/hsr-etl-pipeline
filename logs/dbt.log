@@ -1,0 +1,30 @@
+[0m16:47:53.439970 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF3F24E190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF3F24EED0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF3F24F950>]}
+
+
+============================== 16:47:53.598638 | 41f11596-cdd6-4862-8294-2f4f4cc7c9f8 ==============================
+[0m16:47:53.598638 [info ] [MainThread]: Running with dbt=1.10.15
+[0m16:47:53.599013 [debug] [MainThread]: running dbt with arguments {'target_path': 'None', 'log_format': 'default', 'printer_width': '80', 'use_colors': 'True', 'profiles_dir': 'C:\\Users\\xiang\\.dbt', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'fail_fast': 'False', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'no_print': 'None', 'invocation_command': 'dbt init hsr_dbt_project', 'cache_selected_only': 'False', 'write_json': 'True'}
+[0m16:47:54.623707 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\xiang\.dbt
+[0m16:47:54.639648 [debug] [MainThread]: Starter project path: C:\Users\xiang\AppData\Local\pypoetry\Cache\virtualenvs\hsr-etl-pipeline-rgQ6Ph5G-py3.11\Lib\site-packages\dbt\include\starter_project
+[0m16:47:54.833031 [info ] [MainThread]: 
+Your new dbt project "hsr_dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:47:54.834985 [info ] [MainThread]: Setting up your profile.
+[0m16:51:57.121813 [info ] [MainThread]: Profile hsr_dbt_project written to C:\Users\xiang\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:51:57.124264 [debug] [MainThread]: Command `dbt init` succeeded at 16:51:57.124264 after 243.88 seconds
+[0m16:51:57.124264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF387AB310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF3872CCD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF3F2D1490>]}
+[0m16:51:57.124264 [debug] [MainThread]: Flushing usage events
+[0m16:51:58.267367 [debug] [MainThread]: An error was encountered while trying to flush usage events

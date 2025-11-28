@@ -74,32 +74,32 @@
     {
       "character_id": 1408,
       "character_name": "Phainon",
-      "HP": 3596.22256696,
-      "ATK": 2802.2268768,
-      "DEF": 1272.457832,
+      "HP": 3176.60103936,
+      "ATK": 2849.4907102,
+      "DEF": 1291.509728,
       "SPD": 113.6,
-      "CRIT Rate": 0.7661599989999999,
-      "CRIT DMG": 2.2318
+      "CRIT Rate": 0.730519999,
+      "CRIT DMG": 2.25124
     },
     {
       "character_id": 1404,
       "character_name": "Mydei",
-      "HP": 8418.65472,
-      "ATK": 1644.01100736,
-      "DEF": 636.574308,
-      "SPD": 127.632,
-      "CRIT Rate": 0.40072,
-      "CRIT DMG": 1.9422
+      "HP": 7540.7754239999995,
+      "ATK": 1568.40754212,
+      "DEF": 623.97531,
+      "SPD": 125.032,
+      "CRIT Rate": 0.42016,
+      "CRIT DMG": 2.4217199999999997
     },
     {
       "character_id": 1407,
       "character_name": "Castorice",
       "HP": 9410.627976719998,
-      "ATK": 1543.505026,
-      "DEF": 920.1023999999999,
-      "SPD": 87.4,
-      "CRIT Rate": 0.386039998,
-      "CRIT DMG": 2.29188
+      "ATK": 1550.8954996,
+      "DEF": 958.2061919999999,
+      "SPD": 90.0,
+      "CRIT Rate": 0.360119998,
+      "CRIT DMG": 2.2854
     },
     {
       "character_id": 1313,
@@ -164,18 +164,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_1.png",
-      "substat1_name": "DEF",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.03456,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.06156,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.2268,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.06156,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.2268,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Phainon",
@@ -188,18 +198,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_2.png",
-      "substat1_name": "DEF",
-      "substat1_value": 21.168773,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.0324,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.26567999999999997,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.0648,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 21.168773,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.0324,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.26567999999999997,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.0648,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Phainon",
@@ -212,18 +232,28 @@
       "main_stat_value": 0.324,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_3.png",
-      "substat1_name": "ATK",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.0432,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.22032,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect Hit Rate",
-      "substat4_value": 0.03888,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 19.051896,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.03888,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18144,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.15552,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Phainon",
@@ -236,18 +266,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_4.png",
-      "substat1_name": "SPD",
-      "substat1_value": 2.6,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.08424,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.12312,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect Hit Rate",
-      "substat4_value": 0.11664,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "SPD",
+          "value": 2.6,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.08424,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.12312,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.11664,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Phainon",
@@ -260,18 +300,28 @@
       "main_stat_value": 0.388803,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_321_5.png",
-      "substat1_name": "HP",
-      "substat1_value": 110.07763000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.03456,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.048600000000000004,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.23975999999999997,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 0.1026,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18144,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Phainon",
@@ -284,18 +334,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_321_6.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.0864,
-      "substat1_is_percent": true,
-      "substat2_name": "DEF",
-      "substat2_value": 0.054000000000000006,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.09395999999999999,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.12312,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 35.986915,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.23975999999999997,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.0432,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -308,18 +368,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_122_1.png",
-      "substat1_name": "ATK",
-      "substat1_value": 16.935019,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.07344,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.09720000000000001,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.18791999999999998,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 16.935019,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.07344,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.09720000000000001,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18791999999999998,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -332,18 +402,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_122_2.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.08208,
-      "substat1_is_percent": true,
-      "substat2_name": "ATK",
-      "substat2_value": 0.08208,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.02592,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.17496,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.08208,
+          "is_percent": true
+        },
+        {
+          "name": "ATK",
+          "value": 0.08208,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.02592,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.17496,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -352,22 +432,32 @@
       "set_name": "Scholar Lost in Erudition",
       "set_id": 122,
       "rarity": 5,
-      "main_stat_name": "HP",
-      "main_stat_value": 0.43200000000000005,
+      "main_stat_name": "CRIT DMG",
+      "main_stat_value": 0.648,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_122_3.png",
-      "substat1_name": "ATK",
-      "substat1_value": 21.168773,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.08208,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.0648,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.17496,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 33.870038,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.12096,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.048600000000000004,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -380,18 +470,28 @@
       "main_stat_value": 25.032,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_122_4.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.11664,
-      "substat1_is_percent": true,
-      "substat2_name": "ATK",
-      "substat2_value": 0.03456,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.0432,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.17496,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "ATK",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.17496,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -404,18 +504,28 @@
       "main_stat_value": 0.388803,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_319_5.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.11664,
-      "substat1_is_percent": true,
-      "substat2_name": "CRIT DMG",
-      "substat2_value": 0.11664,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.0432,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.11664,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.11664,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Mydei",
@@ -428,18 +538,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_319_6.png",
-      "substat1_name": "DEF",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.0432,
-      "substat2_is_percent": true,
-      "substat3_name": "SPD",
-      "substat3_value": 2.6,
-      "substat3_is_percent": false,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.23975999999999997,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.02592,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.24624,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.0432,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -452,18 +572,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_124_1.png",
-      "substat1_name": "ATK",
-      "substat1_value": 59.27256500000001,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.03456,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.18791999999999998,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.03456,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 59.27256500000001,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18791999999999998,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.03456,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -476,18 +606,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_124_2.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.08208,
-      "substat1_is_percent": true,
-      "substat2_name": "DEF",
-      "substat2_value": 0.0432,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.0648,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.16199999999999998,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.08208,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.0648,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.16199999999999998,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -500,18 +640,28 @@
       "main_stat_value": 0.648,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_124_3.png",
-      "substat1_name": "HP",
-      "substat1_value": 42.33755000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.12528,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect Hit Rate",
-      "substat3_value": 0.08208,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.07776,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 42.33755000000001,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.12528,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.08208,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.07776,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -524,18 +674,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_124_4.png",
-      "substat1_name": "ATK",
-      "substat1_value": 40.220669,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.05832,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.18791999999999998,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.0648,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 40.220669,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18791999999999998,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.0648,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -548,18 +708,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_319_5.png",
-      "substat1_name": "HP",
-      "substat1_value": 84.67510000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT DMG",
-      "substat2_value": 0.2268,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.03456,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 84.67510000000001,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.2268,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Castorice",
@@ -572,18 +742,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_319_6.png",
-      "substat1_name": "ATK",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.02592,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.24624,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect Hit Rate",
-      "substat4_value": 0.0432,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "SPD",
+          "value": 2.6,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.23975999999999997,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -596,18 +776,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_121_1.png",
-      "substat1_name": "DEF",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 0.054000000000000006,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.21383999999999997,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.08208,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 0.054000000000000006,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.21383999999999997,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.08208,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -620,18 +810,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_121_2.png",
-      "substat1_name": "HP",
-      "substat1_value": 76.20759000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "SPD",
-      "substat2_value": 4.3,
-      "substat2_is_percent": false,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.23328,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect Hit Rate",
-      "substat4_value": 0.0432,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 76.20759000000001,
+          "is_percent": false
+        },
+        {
+          "name": "SPD",
+          "value": 4.3,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.23328,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.0432,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -644,18 +844,28 @@
       "main_stat_value": 0.648,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_121_3.png",
-      "substat1_name": "ATK",
-      "substat1_value": 21.168773,
-      "substat1_is_percent": false,
-      "substat2_name": "Effect Hit Rate",
-      "substat2_value": 0.03888,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.11664,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.16848,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 21.168773,
+          "is_percent": false
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.03888,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.16848,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -668,18 +878,28 @@
       "main_stat_value": 25.032,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_121_4.png",
-      "substat1_name": "DEF",
-      "substat1_value": 35.986915,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 0.1512,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.12312,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.03888,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 35.986915,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 0.1512,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.12312,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.03888,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -692,18 +912,28 @@
       "main_stat_value": 0.388803,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_317_5.png",
-      "substat1_name": "ATK",
-      "substat1_value": 55.038811,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 21.168773,
-      "substat2_is_percent": false,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.17496,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 55.038811,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 21.168773,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.17496,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Sunday",
@@ -716,18 +946,28 @@
       "main_stat_value": 0.19439399999999998,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_317_6.png",
-      "substat1_name": "ATK",
-      "substat1_value": 33.870038,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.07344,
-      "substat2_is_percent": true,
-      "substat3_name": "ATK",
-      "substat3_value": 0.03456,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.18144,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 33.870038,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.07344,
+          "is_percent": true
+        },
+        {
+          "name": "ATK",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18144,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -740,18 +980,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_125_1.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.11664,
-      "substat1_is_percent": true,
-      "substat2_name": "SPD",
-      "substat2_value": 4.9,
-      "substat2_is_percent": false,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.0432,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.10368,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "SPD",
+          "value": 4.9,
+          "is_percent": false
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.10368,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -764,18 +1014,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_125_2.png",
-      "substat1_name": "DEF",
-      "substat1_value": 19.051896,
-      "substat1_is_percent": false,
-      "substat2_name": "SPD",
-      "substat2_value": 12.1,
-      "substat2_is_percent": false,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.02592,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 19.051896,
+          "is_percent": false
+        },
+        {
+          "name": "SPD",
+          "value": 12.1,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.02592,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -788,18 +1048,28 @@
       "main_stat_value": 0.345606,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_125_3.png",
-      "substat1_name": "HP",
-      "substat1_value": 71.97383500000001,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 33.870038,
-      "substat2_is_percent": false,
-      "substat3_name": "HP",
-      "substat3_value": 0.11664,
-      "substat3_is_percent": true,
-      "substat4_name": "DEF",
-      "substat4_value": 0.048600000000000004,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 71.97383500000001,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 33.870038,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.048600000000000004,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -812,18 +1082,28 @@
       "main_stat_value": 25.032,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_125_4.png",
-      "substat1_name": "HP",
-      "substat1_value": 110.07763000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 0.0918,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.11016,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 110.07763000000001,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 0.0918,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.11016,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -836,18 +1116,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_320_5.png",
-      "substat1_name": "ATK",
-      "substat1_value": 0.12096,
-      "substat1_is_percent": true,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.02592,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.24624,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.03456,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 0.12096,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.02592,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.24624,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.03456,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Hyacine",
@@ -860,18 +1150,28 @@
       "main_stat_value": 0.19439399999999998,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_320_6.png",
-      "substat1_name": "ATK",
-      "substat1_value": 35.986915,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 61.389442,
-      "substat2_is_percent": false,
-      "substat3_name": "SPD",
-      "substat3_value": 2.3,
-      "substat3_is_percent": false,
-      "substat4_name": "CRIT Rate",
-      "substat4_value": 0.05832,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 35.986915,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 61.389442,
+          "is_percent": false
+        },
+        {
+          "name": "SPD",
+          "value": 2.3,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -884,18 +1184,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_117_1.png",
-      "substat1_name": "ATK",
-      "substat1_value": 40.220669,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 52.92193400000001,
-      "substat2_is_percent": false,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.09395999999999999,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect RES",
-      "substat4_value": 0.0432,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 40.220669,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 52.92193400000001,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.09395999999999999,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.0432,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -908,18 +1218,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_117_2.png",
-      "substat1_name": "DEF",
-      "substat1_value": 16.935019,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.07344,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.08424,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.12312,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 16.935019,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.07344,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.08424,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.12312,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -932,18 +1252,28 @@
       "main_stat_value": 0.648,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_117_3.png",
-      "substat1_name": "ATK",
-      "substat1_value": 61.389442,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 40.220669,
-      "substat2_is_percent": false,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.09072,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 61.389442,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 40.220669,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.09072,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -956,18 +1286,28 @@
       "main_stat_value": 25.032,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_117_4.png",
-      "substat1_name": "HP",
-      "substat1_value": 76.20759000000001,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.03888,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.14579999999999999,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT Rate",
-      "substat4_value": 0.08748,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 76.20759000000001,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.03888,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.14579999999999999,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.08748,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -980,18 +1320,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_314_5.png",
-      "substat1_name": "DEF",
-      "substat1_value": 42.337546,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.07776,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.05832,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.12312,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 42.337546,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.07776,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.12312,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Acheron",
@@ -1004,18 +1354,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_314_6.png",
-      "substat1_name": "HP",
-      "substat1_value": 71.97383500000001,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.0324,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.23328,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.0648,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 71.97383500000001,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.0324,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.23328,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.0648,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1028,18 +1388,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_113_1.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.12528,
-      "substat1_is_percent": true,
-      "substat2_name": "DEF",
-      "substat2_value": 0.048600000000000004,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.05508,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.10368,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.12528,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.048600000000000004,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05508,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.10368,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1052,18 +1422,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_113_2.png",
-      "substat1_name": "HP",
-      "substat1_value": 0.07776,
-      "substat1_is_percent": true,
-      "substat2_name": "DEF",
-      "substat2_value": 0.0432,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT Rate",
-      "substat3_value": 0.05832,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.18144,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 0.07776,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.05832,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18144,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1076,18 +1456,28 @@
       "main_stat_value": 0.648,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_113_3.png",
-      "substat1_name": "DEF",
-      "substat1_value": 19.051896,
-      "substat1_is_percent": false,
-      "substat2_name": "HP",
-      "substat2_value": 0.03456,
-      "substat2_is_percent": true,
-      "substat3_name": "ATK",
-      "substat3_value": 0.11664,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT Rate",
-      "substat4_value": 0.08099999999999999,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 19.051896,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.03456,
+          "is_percent": true
+        },
+        {
+          "name": "ATK",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.08099999999999999,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1100,18 +1490,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_113_4.png",
-      "substat1_name": "DEF",
-      "substat1_value": 38.103792,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.0324,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.20736,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.0648,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.0324,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.20736,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.0648,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1124,18 +1524,28 @@
       "main_stat_value": 0.388803,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_309_5.png",
-      "substat1_name": "HP",
-      "substat1_value": 71.97383500000001,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 40.220669,
-      "substat2_is_percent": false,
-      "substat3_name": "HP",
-      "substat3_value": 0.08208,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.12312,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 71.97383500000001,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 40.220669,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.08208,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.12312,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Blade",
@@ -1148,18 +1558,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_309_6.png",
-      "substat1_name": "HP",
-      "substat1_value": 80.44134500000001,
-      "substat1_is_percent": false,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.11664,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.0432,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05832,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 80.44134500000001,
+          "is_percent": false
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05832,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1172,18 +1592,28 @@
       "main_stat_value": 705.5999999999999,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_128_1.png",
-      "substat1_name": "ATK",
-      "substat1_value": 0.15984,
-      "substat1_is_percent": true,
-      "substat2_name": "SPD",
-      "substat2_value": 2.3,
-      "substat2_is_percent": false,
-      "substat3_name": "Effect Hit Rate",
-      "substat3_value": 0.0864,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.1296,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 0.15984,
+          "is_percent": true
+        },
+        {
+          "name": "SPD",
+          "value": 2.3,
+          "is_percent": false
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.0864,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.1296,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1196,18 +1626,28 @@
       "main_stat_value": 352.79999999999995,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_128_2.png",
-      "substat1_name": "HP",
-      "substat1_value": 118.54514,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.12528,
-      "substat2_is_percent": true,
-      "substat3_name": "Effect RES",
-      "substat3_value": 0.07344,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05832,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "HP",
+          "value": 118.54514,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.12528,
+          "is_percent": true
+        },
+        {
+          "name": "Effect RES",
+          "value": 0.07344,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05832,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1220,18 +1660,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_128_3.png",
-      "substat1_name": "ATK",
-      "substat1_value": 40.220669,
-      "substat1_is_percent": false,
-      "substat2_name": "DEF",
-      "substat2_value": 19.051896,
-      "substat2_is_percent": false,
-      "substat3_name": "HP",
-      "substat3_value": 0.0432,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.23328,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 40.220669,
+          "is_percent": false
+        },
+        {
+          "name": "DEF",
+          "value": 19.051896,
+          "is_percent": false
+        },
+        {
+          "name": "HP",
+          "value": 0.0432,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.23328,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1244,18 +1694,28 @@
       "main_stat_value": 25.032,
       "main_stat_is_percent": false,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_128_4.png",
-      "substat1_name": "ATK",
-      "substat1_value": 21.168773,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.11664,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.14579999999999999,
-      "substat3_is_percent": true,
-      "substat4_name": "CRIT DMG",
-      "substat4_value": 0.05184,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "ATK",
+          "value": 21.168773,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.11664,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.14579999999999999,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.05184,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1268,18 +1728,28 @@
       "main_stat_value": 0.43200000000000005,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_317_5.png",
-      "substat1_name": "DEF",
-      "substat1_value": 0.10800000000000001,
-      "substat1_is_percent": true,
-      "substat2_name": "CRIT Rate",
-      "substat2_value": 0.08748,
-      "substat2_is_percent": true,
-      "substat3_name": "CRIT DMG",
-      "substat3_value": 0.18144,
-      "substat3_is_percent": true,
-      "substat4_name": "Effect Hit Rate",
-      "substat4_value": 0.03888,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 0.10800000000000001,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT Rate",
+          "value": 0.08748,
+          "is_percent": true
+        },
+        {
+          "name": "CRIT DMG",
+          "value": 0.18144,
+          "is_percent": true
+        },
+        {
+          "name": "Effect Hit Rate",
+          "value": 0.03888,
+          "is_percent": true
+        }
+      ]
     },
     {
       "character_name": "Dan Heng • Permansor Terrae",
@@ -1292,18 +1762,28 @@
       "main_stat_value": 0.19439399999999998,
       "main_stat_is_percent": true,
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_317_6.png",
-      "substat1_name": "DEF",
-      "substat1_value": 19.051896,
-      "substat1_is_percent": false,
-      "substat2_name": "ATK",
-      "substat2_value": 0.15984,
-      "substat2_is_percent": true,
-      "substat3_name": "DEF",
-      "substat3_value": 0.10800000000000001,
-      "substat3_is_percent": true,
-      "substat4_name": "Break Effect",
-      "substat4_value": 0.05832,
-      "substat4_is_percent": true
+      "substats": [
+        {
+          "name": "DEF",
+          "value": 19.051896,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.15984,
+          "is_percent": true
+        },
+        {
+          "name": "DEF",
+          "value": 0.10800000000000001,
+          "is_percent": true
+        },
+        {
+          "name": "Break Effect",
+          "value": 0.05832,
+          "is_percent": true
+        }
+      ]
     }
   ]
 }

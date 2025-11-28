@@ -1,0 +1,49 @@
+uid,character_name,slot,set_name,rarity,main_stat_name,main_stat_value,main_stat_is_percent,substat_name,substat_value,substat_is_percent,num_substats
+700712292,Phainon,HEAD,Wavestrider Captain,5,HP,705.5999999999999,False,DEF,38.103792,False,4
+700712292,Phainon,HAND,Wavestrider Captain,5,ATK,352.79999999999995,False,DEF,21.168773,False,4
+700712292,Phainon,BODY,Wavestrider Captain,5,CRIT Rate,0.324,True,DEF,19.051896,False,4
+700712292,Phainon,FOOT,Wavestrider Captain,5,ATK,0.43200000000000005,True,SPD,2.6,False,4
+700712292,Phainon,ROPE,Arcadia of Woven Dreams,5,Physical DMG Boost,0.388803,True,DEF,0.1026,True,4
+700712292,Phainon,ORBIT,Arcadia of Woven Dreams,5,ATK,0.43200000000000005,True,ATK,35.986915,False,4
+700712292,Mydei,HEAD,Scholar Lost in Erudition,5,HP,705.5999999999999,False,ATK,16.935019,False,4
+700712292,Mydei,HAND,Scholar Lost in Erudition,5,ATK,352.79999999999995,False,HP,0.08208,True,4
+700712292,Mydei,BODY,Scholar Lost in Erudition,5,CRIT DMG,0.648,True,ATK,33.870038,False,4
+700712292,Mydei,FOOT,Scholar Lost in Erudition,5,SPD,25.032,False,HP,0.11664,True,4
+700712292,Mydei,ROPE,Bone Collection's Serene Demesne,5,Imaginary DMG Boost,0.388803,True,HP,0.11664,True,4
+700712292,Mydei,ORBIT,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,ATK,38.103792,False,4
+700712292,Castorice,HEAD,Poet of Mourning Collapse,5,HP,705.5999999999999,False,ATK,59.27256500000001,False,4
+700712292,Castorice,HAND,Poet of Mourning Collapse,5,ATK,352.79999999999995,False,HP,0.08208,True,4
+700712292,Castorice,BODY,Poet of Mourning Collapse,5,CRIT DMG,0.648,True,HP,42.33755000000001,False,4
+700712292,Castorice,FOOT,Poet of Mourning Collapse,5,HP,0.43200000000000005,True,ATK,40.220669,False,4
+700712292,Castorice,ROPE,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,HP,84.67510000000001,False,4
+700712292,Castorice,ORBIT,Bone Collection's Serene Demesne,5,HP,0.43200000000000005,True,DEF,38.103792,False,4
+700712292,Sunday,HEAD,Sacerdos' Relived Ordeal,5,HP,705.5999999999999,False,DEF,38.103792,False,4
+700712292,Sunday,HAND,Sacerdos' Relived Ordeal,5,ATK,352.79999999999995,False,HP,76.20759000000001,False,4
+700712292,Sunday,BODY,Sacerdos' Relived Ordeal,5,CRIT DMG,0.648,True,ATK,21.168773,False,4
+700712292,Sunday,FOOT,Sacerdos' Relived Ordeal,5,SPD,25.032,False,DEF,35.986915,False,4
+700712292,Sunday,ROPE,"Lushaka, the Sunken Seas",5,Quantum DMG Boost,0.388803,True,ATK,55.038811,False,4
+700712292,Sunday,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,0.19439399999999998,True,ATK,33.870038,False,4
+700712292,Hyacine,HEAD,Warrior Goddess of Sun and Thunder,5,HP,705.5999999999999,False,HP,0.11664,True,4
+700712292,Hyacine,HAND,Warrior Goddess of Sun and Thunder,5,ATK,352.79999999999995,False,DEF,19.051896,False,4
+700712292,Hyacine,BODY,Warrior Goddess of Sun and Thunder,5,Outgoing Healing Boost,0.345606,True,HP,71.97383500000001,False,4
+700712292,Hyacine,FOOT,Warrior Goddess of Sun and Thunder,5,SPD,25.032,False,HP,110.07763000000001,False,4
+700712292,Hyacine,ROPE,Giant Tree of Rapt Brooding,5,HP,0.43200000000000005,True,ATK,0.12096,True,4
+700712292,Hyacine,ORBIT,Giant Tree of Rapt Brooding,5,Energy Regeneration Rate,0.19439399999999998,True,ATK,35.986915,False,4
+700712292,Acheron,HEAD,Pioneer Diver of Dead Waters,5,HP,705.5999999999999,False,ATK,40.220669,False,4
+700712292,Acheron,HAND,Pioneer Diver of Dead Waters,5,ATK,352.79999999999995,False,DEF,16.935019,False,4
+700712292,Acheron,BODY,Pioneer Diver of Dead Waters,5,CRIT DMG,0.648,True,ATK,61.389442,False,4
+700712292,Acheron,FOOT,Pioneer Diver of Dead Waters,5,SPD,25.032,False,HP,76.20759000000001,False,4
+700712292,Acheron,ROPE,Izumo Gensei and Takama Divine Realm,5,ATK,0.43200000000000005,True,DEF,42.337546,False,4
+700712292,Acheron,ORBIT,Izumo Gensei and Takama Divine Realm,5,ATK,0.43200000000000005,True,HP,71.97383500000001,False,4
+700712292,Blade,HEAD,Longevous Disciple,5,HP,705.5999999999999,False,HP,0.12528,True,4
+700712292,Blade,HAND,Longevous Disciple,5,ATK,352.79999999999995,False,HP,0.07776,True,4
+700712292,Blade,BODY,Longevous Disciple,5,CRIT DMG,0.648,True,DEF,19.051896,False,4
+700712292,Blade,FOOT,Longevous Disciple,5,HP,0.43200000000000005,True,DEF,38.103792,False,4
+700712292,Blade,ROPE,Rutilant Arena,5,Wind DMG Boost,0.388803,True,HP,71.97383500000001,False,4
+700712292,Blade,ORBIT,Rutilant Arena,5,HP,0.43200000000000005,True,HP,80.44134500000001,False,4
+700712292,Dan Heng • Permansor Terrae,HEAD,Self-Enshrouded Recluse,5,HP,705.5999999999999,False,ATK,0.15984,True,4
+700712292,Dan Heng • Permansor Terrae,HAND,Self-Enshrouded Recluse,5,ATK,352.79999999999995,False,HP,118.54514,False,4
+700712292,Dan Heng • Permansor Terrae,BODY,Self-Enshrouded Recluse,5,ATK,0.43200000000000005,True,ATK,40.220669,False,4
+700712292,Dan Heng • Permansor Terrae,FOOT,Self-Enshrouded Recluse,5,SPD,25.032,False,ATK,21.168773,False,4
+700712292,Dan Heng • Permansor Terrae,ROPE,"Lushaka, the Sunken Seas",5,ATK,0.43200000000000005,True,DEF,0.10800000000000001,True,4
+700712292,Dan Heng • Permansor Terrae,ORBIT,"Lushaka, the Sunken Seas",5,Energy Regeneration Rate,0.19439399999999998,True,DEF,19.051896,False,4
