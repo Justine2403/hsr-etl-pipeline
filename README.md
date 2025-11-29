@@ -75,5 +75,8 @@ Relics stats:
 | `value`      | float  | Substat value      |
 | `is_percent` | bool   | Whether value is % |
 
+## Application
+
+Building an app with Streamlit where it shows users characters informations
 
 
