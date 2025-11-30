@@ -16,6 +16,10 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
   - Prod dependencies include libraries required to run the project
 - Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
 
+## Python version management with pyenv
+
+Allow to switch between python version to make the differents librairies work in the project.
+
 ## Extraction
 We use [EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract data from player profiles. Data is collected by sending requests to the API using async/await, which returns detailed information about:
 
@@ -77,6 +81,6 @@ Relics stats:
 
 ## Application
 
-Building an app with Streamlit where it shows users characters informations
+Building an app with Streamlit where it shows users characters informations and its build 
 
 
