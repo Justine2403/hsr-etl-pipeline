@@ -10,7 +10,12 @@ st.set_page_config(page_title="HSR Analyzer", layout="wide")
 st.title("⭐ Honkai Star Rail – Profile Viewer")
 
 # USER INPUT
-uid = st.text_input("Enter a UID", "")
+available_uids = [
+    p.stem.replace("hsr_", "") 
+    for p in RAW_DIR.glob("hsr_*.json")
+]
+
+uid = st.selectbox("Select a UID", available_uids)
 
 if uid:
     raw_path = RAW_DIR / f"hsr_{uid}.json"
@@ -29,7 +34,7 @@ if uid:
     relics_df = pd.read_csv(relic_csv)
 
     # PLAYER INFO
-    st.header("👤 Player Info")
+    st.header("Player Info")
     player = raw["player"]
     col1, col2, col3 = st.columns(3)
     col1.metric("UID", player["uid"])
@@ -38,7 +43,7 @@ if uid:
     st.divider()
 
     # CHARACTER INFO
-    st.header("🧍 Characters")
+    st.header("Characters")
     for char_name in chars_df["character_name"].unique():
         char_data = chars_df[chars_df["character_name"] == char_name].iloc[0]
 
