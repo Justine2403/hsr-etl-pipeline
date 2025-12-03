@@ -83,4 +83,8 @@ Relics stats:
 
 Building an app with Streamlit where it shows users characters informations and its build 
 
+## Deployement 
+
+We will be using Airflow for the deployement of each scripts
+
 
