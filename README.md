@@ -18,7 +18,7 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
 
 ## Python version management with pyenv
 
-Allow to switch between python version to make the differents librairies work in the project.
+Allow to switch between python version to make the differents librairies and techs work in the project.
 
 ## Extraction
 We use [EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract data from player profiles. Data is collected by sending requests to the API using async/await, which returns detailed information about:
