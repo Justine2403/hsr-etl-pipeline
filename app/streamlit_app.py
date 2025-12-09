@@ -75,7 +75,7 @@ if uid:
 
             for relic in char_relics:
                 with st.container():
-                    st.markdown(f"### {relic['slot']} — ⭐{relic['rarity']} {relic['set_name']}")
+                    st.markdown(f"### {relic['slot']} — {relic['rarity']} {relic['set_name']}")
 
                     # Display relic icon if exists
                     if relic.get("icon"):
