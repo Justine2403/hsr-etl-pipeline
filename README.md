@@ -5,7 +5,7 @@ The objective is to design a complete workflow ETL that retrieves raw game data,
 ## Dependency management with Poetry
 
 This project uses **Poetry** to manage the Python environment and dependencies. Poetry provides several benefits that make it ideal for ETL pipelines and Data Engineering projects:
-- Isolated virtual environment (venv): automatically creates a dedicated Python environment for the project
+- Isolated virtual environment: automatically creates a dedicated Python environment for the project
   - Ensures no conflicts with other projects or global Python packages
   - Keeps project easy to reproduce on another machine
 - Dependency and version management
