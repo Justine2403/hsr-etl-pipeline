@@ -15,7 +15,7 @@ available_uids = [
     for p in RAW_DIR.glob("hsr_*.json")
 ]
 
-uid = st.selectbox("Select a UID", available_uids)
+uid = st.selectbox("Select a UID:", available_uids)
 
 if uid:
     raw_path = RAW_DIR / f"hsr_{uid}.json"
