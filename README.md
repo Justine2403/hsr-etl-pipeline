@@ -87,7 +87,7 @@ Building an app with Streamlit where it shows users characters informations and 
 
 We will be using Airflow for the deployement of each scripts
 
-## Automatization 
+## Orchestration 
 
 
 
