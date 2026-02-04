@@ -2,7 +2,8 @@
 This repository contains a data engineer project built around **Honkai: Star Rail** game's character information.
 The objective is to design a complete workflow ETL that retrieves raw game data, organizes it into a structured format, and produces meaningful insights such as character summaries and build evaluations.
 
-## Dependency management with Poetry
+## Python librairies tools
+### Dependency management with Poetry
 
 This project uses **Poetry** to manage the Python environment and dependencies. Poetry provides several benefits that make it ideal for ETL pipelines and Data Engineering projects:
 - Isolated virtual environment: automatically creates a dedicated Python environment for the project
@@ -16,7 +17,7 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
   - Prod dependencies include libraries required to run the project
 - Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
 
-## Python version management with pyenv
+### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
 
