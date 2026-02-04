@@ -34,8 +34,8 @@ Player:
 | Field      | Type   | Description          |
 | ---------- | ------ | -------------------- |
 | `uid`      | int    | Player account ID    |
-| `nickname` | string | Player name  |
-| `level`    | int    | Player level     |
+| `nickname` | string | Player name          |
+| `level`    | int    | Account level        |
 
 Characters:
 | Field              | Type   | Description                       |
