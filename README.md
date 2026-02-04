@@ -35,7 +35,7 @@ Player:
 | ---------- | ------ | -------------------- |
 | `uid`      | int    | Player account ID    |
 | `nickname` | string | Player name  |
-| `level`    | int    | Trailblaze level     |
+| `level`    | int    | Player level     |
 
 Characters:
 | Field              | Type   | Description                       |
