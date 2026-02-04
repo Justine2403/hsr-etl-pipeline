@@ -2,25 +2,6 @@
 This repository contains a data engineer project built around **Honkai: Star Rail** game's character information.
 The objective is to design a complete workflow ETL that retrieves raw game data, organizes it into a structured format, and produces meaningful insights such as character summaries and build evaluations.
 
-## Python librairies tools
-### Dependency management with Poetry
-
-This project uses **Poetry** to manage the Python environment and dependencies. Poetry provides several benefits that make it ideal for ETL pipelines and Data Engineering projects:
-- Isolated virtual environment: automatically creates a dedicated Python environment for the project
-  - Ensures no conflicts with other projects or global Python packages
-  - Keeps project easy to reproduce on another machine
-- Dependency and version management
-  - `pyproject.toml` lists all project dependencies
-  - `poetry.lock` locks exact versions, ensuring that everyone running the project uses the same versions of packages
-- Separation of dev and prod dependencies: avoid installing unnecessary packages in production environments
-  - Dev dependencies include tools for testing and formatting
-  - Prod dependencies include libraries required to run the project
-- Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
-
-### Python version management with pyenv
-
-Allow to switch between python version to make the differents librairies and techs work in the project.
-
 ## Extraction
 We use [EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract data from player profiles. Data is collected by sending requests to the API using async/await, which returns detailed information about:
 
@@ -103,3 +84,22 @@ At this stage, the focus is on demonstrating the end-to-end workflow:
  - transforming it into analytics-ready tables
  - using it via a visualization layer.
 Future iterations will include fully automated orchestration, advanced metrics, and comparative analytics.
+
+## Python librairies tools
+### Dependency management with Poetry
+
+This project uses **Poetry** to manage the Python environment and dependencies. Poetry provides several benefits that make it ideal for ETL pipelines and Data Engineering projects:
+- Isolated virtual environment: automatically creates a dedicated Python environment for the project
+  - Ensures no conflicts with other projects or global Python packages
+  - Keeps project easy to reproduce on another machine
+- Dependency and version management
+  - `pyproject.toml` lists all project dependencies
+  - `poetry.lock` locks exact versions, ensuring that everyone running the project uses the same versions of packages
+- Separation of dev and prod dependencies: avoid installing unnecessary packages in production environments
+  - Dev dependencies include tools for testing and formatting
+  - Prod dependencies include libraries required to run the project
+- Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
+
+### Python version management with pyenv
+
+Allow to switch between python version to make the differents librairies and techs work in the project.
