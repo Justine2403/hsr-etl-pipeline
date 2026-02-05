@@ -10,6 +10,7 @@ We use [EnkaNetwork API](https://github.com/EnkaNetwork/API-docs) to extract dat
 - Builds: lightcone, relics and stats for each character from the Character Showcase
 
 This approach allows automated, structured data collection for analysis without manual data entry.
+Raw data are extracted in JSON format.
 
 ### Data Model
 Player:
