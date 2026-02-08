@@ -67,6 +67,8 @@ Relics stats:
 Currently, a Python script transforms raw data into usable CSV files, which are then consumed by the Streamlit application to generate meaningful insights from the raw data.
 In the next stage of the project, transformations will be migrated to **dbt** and stored in **PostgreSQL**, enabling a more maintainable and production-ready data pipeline.
 
+To transform and clean the raw data, we first need to create a database in PostgreSQL so we can stock the information collected in JSON format. 
+
 ## Application
 
 This project includes a **Streamlit** application used to visualize processed data and key metrics.
