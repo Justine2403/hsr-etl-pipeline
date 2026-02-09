@@ -83,10 +83,8 @@ At the current stage, Airflow is set up for future scheduling and automation of 
 ---
 
 At this stage, the focus is on demonstrating the end-to-end workflow:  
- - extracting raw data
- - transforming it into analytics-ready tables
- - using it via a visualization layer.
-Future iterations will include fully automated orchestration, advanced metrics, and comparative analytics.
+ - migrate transformation from python script to dbt
+ - fully automated orchestration with Airflow
 
 ## Python librairies tools
 ### Dependency management with Poetry
