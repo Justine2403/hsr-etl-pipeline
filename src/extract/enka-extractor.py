@@ -1,6 +1,7 @@
 # src/extract/enka_extractor.py
 import asyncio
 import json
+import psycopg2
 from pathlib import Path
 from enka import HSRClient
 
@@ -106,7 +107,37 @@ async def fetch_user_data(uid: int):
                         print("    Substats: " + " | ".join(substats_lines))
             print("-" * 50)
 
+def load_to_postgres(uid):
+    file_path = Path(f"data/raw/hsr_{uid}.json")
+
+    with open(file_path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    # connection to postgres servers
+    conn = psycopg2.connect(
+        dbname="postgres",
+        user="postgres",
+        password="postgresdbt",
+        host="localhost",
+        port="5432"
+    )
+
+    cur = conn.cursor()
+
+    cur.execute("""
+    INSERT INTO raw_hsr_data (uid, payload)
+    VALUES (%s, %s)
+""", (uid, json(data)))
+
+    conn.commit()
+    cur.close()
+    conn.close()
+
+    print("Data inserted into PostgreSQL")
+
 if __name__ == "__main__":
     import sys
-    uid = int(sys.argv[1])  # pass UID as argument
+    #uid = int(sys.argv[1])  # pass UID as argument
+    uid = 700712292
     asyncio.run(fetch_user_data(uid))
+    load_to_postgres(uid)

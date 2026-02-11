@@ -74,12 +74,12 @@
     {
       "character_id": 1408,
       "character_name": "Phainon",
-      "HP": 3176.60103936,
-      "ATK": 2849.4907102,
-      "DEF": 1291.509728,
-      "SPD": 113.6,
-      "CRIT Rate": 0.730519999,
-      "CRIT DMG": 2.25124
+      "HP": 3394.09372356,
+      "ATK": 2838.2137918,
+      "DEF": 1272.457832,
+      "SPD": 111.0,
+      "CRIT Rate": 0.762919999,
+      "CRIT DMG": 2.2318
     },
     {
       "character_id": 1404,
@@ -105,9 +105,9 @@
       "character_id": 1313,
       "character_name": "Sunday",
       "HP": 3364.60728024,
-      "ATK": 1618.07973272,
-      "DEF": 1509.0093419999998,
-      "SPD": 131.092,
+      "ATK": 1706.5380401200002,
+      "DEF": 1547.113134,
+      "SPD": 135.692,
       "CRIT Rate": 0.05,
       "CRIT DMG": 2.44764
     },
@@ -234,23 +234,23 @@
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_3.png",
       "substats": [
         {
-          "name": "DEF",
-          "value": 19.051896,
+          "name": "ATK",
+          "value": 38.103792,
           "is_percent": false
         },
         {
-          "name": "ATK",
-          "value": 0.03888,
+          "name": "HP",
+          "value": 0.0432,
           "is_percent": true
         },
         {
           "name": "CRIT DMG",
-          "value": 0.18144,
+          "value": 0.22032,
           "is_percent": true
         },
         {
           "name": "Effect Hit Rate",
-          "value": 0.15552,
+          "value": 0.03888,
           "is_percent": true
         }
       ]
@@ -268,23 +268,23 @@
       "icon": "https://enka.network/ui/hsr/SpriteOutput/ItemIcon/RelicIcons/IconRelic_126_4.png",
       "substats": [
         {
-          "name": "SPD",
-          "value": 2.6,
+          "name": "HP",
+          "value": 114.31138500000002,
           "is_percent": false
         },
         {
           "name": "CRIT Rate",
-          "value": 0.08424,
+          "value": 0.11664,
           "is_percent": true
         },
         {
           "name": "CRIT DMG",
-          "value": 0.12312,
+          "value": 0.0648,
           "is_percent": true
         },
         {
-          "name": "Effect Hit Rate",
-          "value": 0.11664,
+          "name": "Break Effect",
+          "value": 0.05832,
           "is_percent": true
         }
       ]
@@ -847,23 +847,23 @@
       "substats": [
         {
           "name": "ATK",
-          "value": 21.168773,
+          "value": 61.389442,
           "is_percent": false
         },
         {
-          "name": "Effect Hit Rate",
-          "value": 0.03888,
+          "name": "DEF",
+          "value": 38.103792,
+          "is_percent": false
+        },
+        {
+          "name": "ATK",
+          "value": 0.0432,
           "is_percent": true
         },
         {
-          "name": "Effect RES",
-          "value": 0.11664,
-          "is_percent": true
-        },
-        {
-          "name": "Break Effect",
-          "value": 0.16848,
-          "is_percent": true
+          "name": "SPD",
+          "value": 4.6,
+          "is_percent": false
         }
       ]
     },
