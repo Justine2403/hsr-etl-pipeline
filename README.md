@@ -135,3 +135,7 @@ cur.execute("""
 - `%s` let PostgreSQL manage the type of the values
 - first %s is uid, the second one is the json file
 - `data` in the argument is a dictionnary but PostgreSQL doesn't understand it so we need to convert it into a string json
+
+#### JSON string into table
+
+
