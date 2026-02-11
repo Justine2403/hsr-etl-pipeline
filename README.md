@@ -104,3 +104,34 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
 ### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
+We use 3.11.9 Python version. To check which version is installed use following command:
+`pyenv versions`
+
+### Use of PostgreSQL to get a database of the raw data
+
+After extracting the raw data into a json file, we then create a database and a table in PostgreSQL to store it.
+```
+CREATE DATABASE db_name;
+CREATE TABLE table_name
+(id SERIAL PRIMARY KEY,
+    uid BIGINT,
+    extracted_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    payload JSONB
+);
+```
+We can now add the connection between the extraction script and database in PostgreSQL:
+
+```
+import psycopg2
+conn = psycopg2.connect(database="dbname", user="username", password="pass", host="hostname", port=5432)
+cur = conn.cursor()
+
+cur.execute("""
+    # only use argument that are NOT automatically created by PostgreSQL like id and timestamp
+    INSERT INTO table_name (uid, payload) 
+    VALUES (%s, %s)
+""", (uid, json.dumps(data)))
+```
+- `%s` let PostgreSQL manage the type of the values
+- first %s is uid, the second one is the json file
+- `data` in the argument is a dictionnary but PostgreSQL doesn't understand it so we need to convert it into a string json
