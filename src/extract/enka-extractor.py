@@ -127,7 +127,7 @@ def load_to_postgres(uid):
     cur.execute("""
     INSERT INTO raw_hsr_data (uid, payload)
     VALUES (%s, %s)
-""", (uid, json(data)))
+""", (uid, json.dumps(data)))
 
     conn.commit()
     cur.close()
