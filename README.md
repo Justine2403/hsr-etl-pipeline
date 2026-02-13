@@ -138,4 +138,5 @@ cur.execute("""
 
 #### JSON string into table
 
+We now have the raw data as a JSON string, to transform each elements into an elements of a table, we need the function `jsonb_array_elements()` to transform the array into individual elements. 
 
