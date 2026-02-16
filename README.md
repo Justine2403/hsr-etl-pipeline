@@ -140,3 +140,5 @@ cur.execute("""
 
 We now have the raw data as a JSON string, to transform each elements into an elements of a table, we need the function `jsonb_array_elements()` to transform the array into individual elements. We have now a table with all the characteristics of the characters that is going to be usable to do the transformation in dbt.
 
+### Transformation with dbt
+
