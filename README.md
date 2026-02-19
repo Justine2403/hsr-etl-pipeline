@@ -39,8 +39,8 @@ Stats:
 | `ATK`          | float | Total Attack             |
 | `DEF`          | float | Total Defense            |
 | `SPD`          | float | Speed                    |
-| `CRIT Rate`    | float | Critical rate (0–1)      |
-| `CRIT DMG`     | float | Critical damage (0–n)    |
+| `CRIT Rate`    | float | Critical rate       |
+| `CRIT DMG`     | float | Critical damage     |
 
 Relics:
 | Field                  | Type                     | Description                              |
