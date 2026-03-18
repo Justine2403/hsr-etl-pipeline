@@ -142,3 +142,4 @@ We now have the raw data as a JSON string, to transform each elements into an el
 
 ### Transformation with dbt
 
+We need to clean the raw data by formating the decimal numbers into percentage.
