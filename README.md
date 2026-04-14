@@ -143,3 +143,9 @@ We now have the raw data as a JSON string, to transform each elements into an el
 ### Transformation with dbt
 
 We need to clean the raw data by formating the decimal numbers into percentage.
+
+### What need to be done
+
+- Build and store the database in PostgreSQL
+- Create dbt transformation script to modify the database into usable data and apply to it
+- Understand how Airflow works and create an orchestration for the differents scripts
