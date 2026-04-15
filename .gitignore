@@ -1,0 +1,10 @@
+
+target/
+dbt_packages/
+logs/
+
+# Python virtual environment
+.venv/
+venv/
+ENV/
+env/
