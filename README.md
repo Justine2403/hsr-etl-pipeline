@@ -101,11 +101,16 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
   - Prod dependencies include libraries required to run the project
 - Script execution with `poetry run`: guarantees that scripts always run in the correct environment with the right dependencies
 
+Quick memo:
+ - To install new packages: `poetry add <package>`
+ - remove all the files linked to the virtual environnement: `git rm -r --cached .venv/`
+
 ### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
-We use 3.11.9 Python version. To check which version is installed use following command:
-`pyenv versions`
+We use 3.11.9 Python version. 
+- To check which version is installed use following command: `pyenv versions`
+
 
 ### Use of PostgreSQL to get a database of the raw data
 
