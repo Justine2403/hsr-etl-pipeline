@@ -84,8 +84,8 @@ async def fetch_user_data(uid: int):
 
         print(f"Raw data saved to {filename}")
 
-        # ---------- PRINT INFO ----------
-        for char in characters:
+       # ---------- PRINT INFO ----------
+"""        for char in characters:
             print(f"\nCharacter: {char['name']} | Level {char['level']} | Element: {char['element']}")
             print(f"Lightcone: {char['light_cone']} | Level {char['light_cone_level']}")
 
@@ -105,7 +105,7 @@ async def fetch_user_data(uid: int):
                     if relic['substats']:
                         substats_lines = [f"{s['name']} = {s['value']}" for s in relic['substats']]
                         print("    Substats: " + " | ".join(substats_lines))
-            print("-" * 50)
+            print("-" * 50)"""
 
 def load_to_postgres(uid):
     file_path = Path(f"data/raw/hsr_{uid}.json")
