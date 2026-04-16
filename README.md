@@ -104,7 +104,7 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
 Quick memo:
  - To install new packages: `poetry add <package>`
  - remove all the files linked to the virtual environnement: `git rm -r --cached .venv/`
-
+ - activate virtual environment: `Invoke-Expression (poetry env activate)`
 ### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
