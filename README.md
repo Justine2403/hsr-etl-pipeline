@@ -149,6 +149,11 @@ We now have the raw data as a JSON string, to transform each elements into an el
 
 We need to clean the raw data by formating the decimal numbers into percentage.
 
+### Learning Data Engineer
+#### How to use an API
+
+To make sure that we are calling correctly an API, it is possible to use `pprint` to show all the element of the API
+
 ### What need to be done
 
 - Build and store the database in PostgreSQL
