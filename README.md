@@ -104,7 +104,7 @@ This project uses **Poetry** to manage the Python environment and dependencies. 
 Quick memo:
  - To install new packages: `poetry add <package>`
  - remove all the files linked to the virtual environnement: `git rm -r --cached .venv/`
-
+ - activate virtual environment: `Invoke-Expression (poetry env activate)`
 ### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
@@ -148,6 +148,16 @@ We now have the raw data as a JSON string, to transform each elements into an el
 ### Transformation with dbt
 
 We need to clean the raw data by formating the decimal numbers into percentage.
+
+### Learning Data Engineer
+#### How to use an API
+
+To make sure that we are calling correctly an API, it is possible to use `pprint` to show all the element of the API.
+
+#### Issues accountered
+
+- API didnt work after several months: Error being "AssetKeyError", most of the time, it can mean that the API need to be updated to its latest version. To do that, we can do `poetry add <API_name>@latest`
+- Many issues with the virtual environment when using poetry (see the section about the library [Poetry](#dependency-management-with-poetry))
 
 ### What need to be done
 
