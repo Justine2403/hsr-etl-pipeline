@@ -105,12 +105,12 @@ Quick memo:
  - To install new packages: `poetry add <package>`
  - remove all the files linked to the virtual environnement: `git rm -r --cached .venv/`
  - activate virtual environment: `Invoke-Expression (poetry env activate)`
+
 ### Python version management with pyenv
 
 Allow to switch between python version to make the differents librairies and techs work in the project.
 We use 3.11.9 Python version. 
 - To check which version is installed use following command: `pyenv versions`
-
 
 ### Use of PostgreSQL to get a database of the raw data
 
@@ -157,7 +157,7 @@ To make sure that we are calling correctly an API, it is possible to use `pprint
 #### Issues accountered
 
 - API didnt work after several months: Error being "AssetKeyError", most of the time, it can mean that the API need to be updated to its latest version. To do that, we can do `poetry add <API_name>@latest`
-- Many issues with the virtual environment when using poetry (see the section about the library [Poetry](#dependency-management-with-poetry))
+- Some issues with the virtual environment when using poetry (see the section about the library [Poetry](#dependency-management-with-poetry))
 
 ### What need to be done
 
