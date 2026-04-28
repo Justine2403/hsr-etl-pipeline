@@ -107,6 +107,7 @@ async def fetch_user_data(uid: int):
                         print("    Substats: " + " | ".join(substats_lines))
             print("-" * 50)"""
 
+
 def load_to_postgres(uid):
     file_path = Path(f"data/raw/hsr_{uid}.json")
 

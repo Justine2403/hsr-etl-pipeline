@@ -9,3 +9,4 @@ async def inspect_character(uid: int):
             pprint(char.__dict__)  # Shows all fields for this character
 
 asyncio.run(inspect_character(700712292))
+
